@@ -1,0 +1,29 @@
+@mixin Btn{
+    float: left;
+    width: 190px;
+    height: 50px;
+    line-height: 50px;
+    color: $primary-color;
+    transition: all .3s ease-in-out;
+    text-align: center;
+    border: 1px solid $primary-color;
+    &:hover{
+        background: $primary-color;
+        color: $white;
+        transform: scale(1.03);
+    }
+    &:active{
+        transform: scale(0.97);
+    }
+}
+
+@mixin h2{
+    font-family: $montserrat;
+    font-weight: 700;
+    color:$title-color 
+}
+
+@mixin h4{
+    font-family: $montserrat;
+    color: $title-color;
+}
