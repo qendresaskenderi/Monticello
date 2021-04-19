@@ -1,0 +1,29 @@
+footer{
+    background: url("/assets/footer-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 550px;
+    .logo-container{
+        width: 770px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top:204px ;
+        .social-media{
+            a{
+                margin-left: 20px;
+            }
+
+        }
+    }
+    .copyright{
+        color: $white;
+        width: 770px;
+        margin: 0 auto;
+        padding-top: 41px;
+        font-family: $montserrat;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

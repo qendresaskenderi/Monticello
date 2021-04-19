@@ -37,6 +37,7 @@
     color: $title-color;
     font-family: $montserrat;
     line-height: 54px;
+    text-transform: uppercase;
     &::before{
         content: '';
         display: block;
