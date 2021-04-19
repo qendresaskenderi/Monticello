@@ -1,0 +1,11 @@
+//UTILS
+@import "./utils/base";
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./utils/reset";
+
+//MAIN
+@import "./main/header";
+@import "./main/main";
+@import "./main/footer";
+
