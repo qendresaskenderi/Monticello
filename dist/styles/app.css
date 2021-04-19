@@ -169,3 +169,111 @@ table {
   position: absolute;
   bottom: 50px;
 }
+
+.about-us .about-us__title {
+  position: relative;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  color: #2C4058;
+  font-family: "Montserrat", sans-serif;
+  line-height: 54px;
+  margin-bottom: 120px;
+}
+.about-us .about-us__title::before {
+  content: "";
+  display: block;
+  top: -20px;
+  width: 100px;
+  background: #2C4058;
+  height: 1px;
+  position: absolute;
+  left: calc(50% - 50px);
+}
+.about-us .flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 200px;
+  height: 527px;
+}
+.about-us .flex-container .about-us__img {
+  width: 630px;
+  position: relative;
+  margin-right: 70px;
+}
+.about-us .flex-container .about-us__img:before {
+  content: "";
+  width: 90%;
+  height: 100%;
+  background: #55B7FF;
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: -30%;
+  z-index: -2;
+}
+.about-us .flex-container .about-us__content {
+  width: 470px;
+}
+.about-us .flex-container .about-us__content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  color: #2C4058;
+  margin-bottom: 19px;
+}
+.about-us .flex-container .about-us__content h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #2C4058;
+  font-size: 22px;
+}
+.about-us .flex-container .about-us__content p {
+  color: #2C4058;
+  margin-bottom: 41px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.875em;
+  font-size: 18px;
+}
+.about-us .flex-container .about-us__content a {
+  float: left;
+  width: 190px;
+  height: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #2C4058;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.about-us .flex-container .about-us__content a:hover {
+  background: #2C4058;
+  color: #FFFFFF;
+}
+.about-us .flex-container .about-us__content .about-us__location {
+  clear: both;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 60px;
+}
+.about-us .flex-container .about-us__content .about-us__location p {
+  font-style: italic;
+  color: #000000;
+  font-weight: 400;
+}
+.about-us .flex-container .about-us__content .about-us__location p img {
+  margin-right: 10px;
+}
+.about-us .flex-container:last-child {
+  flex-direction: row-reverse;
+}
+.about-us .flex-container:last-child .about-us__content {
+  margin-right: 64px;
+}
+.about-us .flex-container:last-child .about-us__img {
+  height: 470px;
+}

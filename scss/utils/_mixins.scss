@@ -2,28 +2,49 @@
     float: left;
     width: 190px;
     height: 50px;
+    font-weight: 400;
     line-height: 50px;
-    color: $primary-color;
-    transition: all .3s ease-in-out;
+    color: $btn-color;
     text-align: center;
-    border: 1px solid $primary-color;
+    border: 1px solid $title-color;
+    text-decoration: none;
+    font-family: $montserrat;
+    font-size: 14px;
     &:hover{
-        background: $primary-color;
+        background: $title-color;
         color: $white;
-        transform: scale(1.03);
-    }
-    &:active{
-        transform: scale(0.97);
     }
 }
 
 @mixin h2{
     font-family: $montserrat;
     font-weight: 700;
-    color:$title-color 
+    font-size: 44px;
+    color:$title-color ;
 }
 
 @mixin h4{
     font-family: $montserrat;
     color: $title-color;
+    font-size: 22px;
+}
+
+@mixin main-title{
+    position: relative;
+    text-align: center;
+    font-size:44px;
+    font-weight: 700;
+    color: $title-color;
+    font-family: $montserrat;
+    line-height: 54px;
+    &::before{
+        content: '';
+        display: block;
+        top: -20px;
+        width: 100px;
+        background: $title-color;
+        height: 1px;
+        position: absolute;
+        left: calc(50% - 50px);
+    }
 }
